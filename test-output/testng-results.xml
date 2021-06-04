@@ -2,12 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-04T05:36:04Z" name="Default suite" finished-at="2021-06-04T05:37:54Z" duration-ms="110589">
+  <suite started-at="2021-06-04T13:17:14Z" name="Default suite" finished-at="2021-06-04T13:18:54Z" duration-ms="99967">
     <groups>
     </groups>
-    <test started-at="2021-06-04T05:36:04Z" name="Default test" finished-at="2021-06-04T05:37:54Z" duration-ms="110589">
-      <class name="tests.ApiDemoTest">
-        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:tests.ApiDemoTest@38604b81]" started-at="2021-06-04T05:36:04Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-04T05:37:15Z" duration-ms="71233" status="PASS">
+    <test started-at="2021-06-04T13:17:14Z" name="Default test" finished-at="2021-06-04T13:18:54Z" duration-ms="99967">
+      <class name="ApiDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:17:14Z" name="setUp" finished-at="2021-06-04T13:18:11Z" duration-ms="56669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:11Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-04T13:18:18Z" duration-ms="7248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
-        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:tests.ApiDemoTest@38604b81]" started-at="2021-06-04T05:37:15Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-04T05:37:54Z" duration-ms="39328" status="PASS">
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:18Z" name="stopService" finished-at="2021-06-04T13:18:18Z" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopService -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:18Z" name="setUp" finished-at="2021-06-04T13:18:46Z" duration-ms="27840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:46Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-04T13:18:54Z" duration-ms="8054" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
-      </class> <!-- tests.ApiDemoTest -->
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:54Z" name="stopService" finished-at="2021-06-04T13:18:54Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopService -->
+      </class> <!-- ApiDemoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
