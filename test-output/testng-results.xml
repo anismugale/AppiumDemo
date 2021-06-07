@@ -1,47 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-04T13:17:14Z" name="Default suite" finished-at="2021-06-04T13:18:54Z" duration-ms="99967">
+  <suite started-at="2021-06-07T13:05:33Z" name="Default suite" finished-at="2021-06-07T13:05:33Z" duration-ms="33">
     <groups>
     </groups>
-    <test started-at="2021-06-04T13:17:14Z" name="Default test" finished-at="2021-06-04T13:18:54Z" duration-ms="99967">
+    <test started-at="2021-06-07T13:05:33Z" name="Default test" finished-at="2021-06-07T13:05:33Z" duration-ms="33">
       <class name="ApiDemoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:17:14Z" name="setUp" finished-at="2021-06-04T13:18:11Z" duration-ms="56669" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@2421cc4]" started-at="2021-06-07T13:05:33Z" name="setUp" finished-at="2021-06-07T13:05:33Z" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+at commons.InitializePropertyFile.loadPropertyFile(InitializePropertyFile.java:16)
+at commons.TestBase.setUp(TestBase.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:11Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-04T13:18:18Z" duration-ms="7248" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@2421cc4]" started-at="2021-06-07T13:05:33Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-07T13:05:33Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+at commons.InitializePropertyFile.loadPropertyFile(InitializePropertyFile.java:16)
+at commons.TestBase.setUp(TestBase.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
-        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:18Z" name="stopService" finished-at="2021-06-04T13:18:18Z" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@2421cc4]" started-at="2021-06-07T13:05:33Z" name="stopService" finished-at="2021-06-07T13:05:33Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopService -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:18Z" name="setUp" finished-at="2021-06-04T13:18:46Z" duration-ms="27840" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:46Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-04T13:18:54Z" duration-ms="8054" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[@#$%]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@2421cc4]" started-at="2021-06-07T13:05:33Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-07T13:05:33Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+at commons.InitializePropertyFile.loadPropertyFile(InitializePropertyFile.java:16)
+at commons.TestBase.setUp(TestBase.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
-        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@3f57bcad]" started-at="2021-06-04T13:18:54Z" name="stopService" finished-at="2021-06-04T13:18:54Z" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@2421cc4]" started-at="2021-06-07T13:05:33Z" name="setUp" finished-at="2021-06-07T13:05:33Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@2421cc4]" started-at="2021-06-07T13:05:33Z" name="stopService" finished-at="2021-06-07T13:05:33Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopService -->

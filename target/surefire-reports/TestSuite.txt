@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 86.715 s <<< FAILURE! - in TestSuite
-tests.ApiDemoTest.apiDemoTest[hello](1)  Time elapsed: 44.273 s  <<< FAILURE!
-org.openqa.selenium.InvalidSelectorException: 
-Locator Strategy 'name' is not supported for this session
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RQPAENCM', ip: '192.168.43.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Anis\eclipse-works..., appPackage: io.appium.android.apis, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\Anis\eclipse-works..., automationName: uiautomator2, deviceName: Redmi, newCommandTimeout: 14, platformName: android}, deviceApiLevel: 24, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 4, deviceName: 55272e729804, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 55272e729804, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 465c3062-340e-4f9c-8490-45b1a5e94871
-*** Element info: {Using=name, value=preferences}
-	at tests.ApiDemoTest.apiDemoTest(ApiDemoTest.java:26)
-
-tests.ApiDemoTest.apiDemoTest[@#$%](2)  Time elapsed: 38.828 s  <<< FAILURE!
-org.openqa.selenium.InvalidSelectorException: 
-Locator Strategy 'name' is not supported for this session
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RQPAENCM', ip: '192.168.43.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Anis\eclipse-works..., appPackage: io.appium.android.apis, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\Anis\eclipse-works..., automationName: uiautomator2, deviceName: Redmi, newCommandTimeout: 14, platformName: android}, deviceApiLevel: 24, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 4, deviceName: 55272e729804, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 55272e729804, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: f9883c2b-759e-49d5-81a5-5b86fa5298c2
-*** Element info: {Using=name, value=preferences}
-	at tests.ApiDemoTest.apiDemoTest(ApiDemoTest.java:26)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 82.656 s - in TestSuite
