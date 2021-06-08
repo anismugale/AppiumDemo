@@ -1,16 +1,16 @@
 package commons;
 
-import java.net.URL;
 import java.time.Duration;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
@@ -18,11 +18,14 @@ import io.appium.java_client.touch.offset.PointOption;
 public class Gestures {
 
 	 public static AndroidDriver<AndroidElement>  driver;
+	 
+	 public Gestures(AndroidDriver<AndroidElement> driver) {	
+			PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+		}
 	
-	public void scrollToText(String text, URL url, DesiredCapabilities capabilities) {
-		AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(url, capabilities);
+	public void scrollToText(String text) {
 		driver.findElementByAndroidUIAutomator(
-				"new UiScrollable(new UiSelector()).scrollIntoView(text(\"" + text + "\"));");
+				"new UiScrollable(new UiSelector()).scrollIntoView(text(\"" +text+ "\"));");
 	}
 	public void dragAndDrop(AndroidElement source, AndroidElement target) {
 

@@ -8,6 +8,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="ApiDemoTest"/>
+      <class name="ContentTest"/>
+      <class name="OSTest"/>
       <class name="commons.TestBase"/>
     </classes>
   </test> <!-- Test -->

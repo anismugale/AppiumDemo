@@ -11,7 +11,7 @@
         <methods>
           <include name="setUp"/>
           <include name="stopService"/>
-          <include name="apiDemoTest"/>
+          <include name="apiDemoTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- ApiDemoTest -->
     </classes>

@@ -1,6 +1,7 @@
 package commons;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.ServerSocket;
@@ -13,7 +14,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -24,7 +27,7 @@ public class TestBase {
 	  public static AppiumDriverLocalService service;
 	  public static AndroidDriver<AndroidElement>  driver;
 	  public static DesiredCapabilities capabilities = new DesiredCapabilities();
-	  
+	  public static Properties property;
 	  @BeforeMethod
 		public void setUp() throws IOException, InterruptedException {
 		  service=startServer();
@@ -92,6 +95,11 @@ public class TestBase {
 	{
 	File scrfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(scrfile,new File(System.getProperty("user.dir")+"\\"+s+".png"));
+	}
+	public static void propertyFile() throws FileNotFoundException, IOException {
+		property = new Properties();
+		String path = System.getProperty("configPath");
+		property.load(new FileInputStream(path));
 	}
 	
 	@AfterMethod
