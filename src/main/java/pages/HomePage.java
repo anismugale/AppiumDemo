@@ -21,4 +21,6 @@ public class HomePage extends BasePage {
 	@AndroidFindBy(xpath="//android.widget.TextView[@content-desc=\"OS\"]")
 	public AndroidElement operatingSystem;
 
+	@AndroidFindBy(xpath="//android.widget.TextView[@content-desc=\"Views\"]")
+	public AndroidElement views;
 }

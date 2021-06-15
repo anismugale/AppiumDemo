@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-08T06:44:26Z" name="Suite" finished-at="2021-06-08T06:46:01Z" duration-ms="95561">
+  <suite started-at="2021-06-15T05:40:15Z" name="Suite" finished-at="2021-06-15T05:45:37Z" duration-ms="321399">
     <groups>
     </groups>
-    <test started-at="2021-06-08T06:44:26Z" name="Test" finished-at="2021-06-08T06:46:01Z" duration-ms="95561">
+    <test started-at="2021-06-15T05:40:15Z" name="Test" finished-at="2021-06-15T05:45:37Z" duration-ms="321399">
       <class name="ApiDemoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@7e5c856f]" started-at="2021-06-08T06:44:26Z" name="setUp" finished-at="2021-06-08T06:44:53Z" duration-ms="27194" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:40:15Z" name="setUp" finished-at="2021-06-15T05:41:40Z" duration-ms="84614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@7e5c856f]" started-at="2021-06-08T06:44:53Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-08T06:45:01Z" duration-ms="8052" status="PASS">
+        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:41:40Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-15T05:41:50Z" duration-ms="10463" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
-        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@7e5c856f]" started-at="2021-06-08T06:45:01Z" name="stopService" finished-at="2021-06-08T06:45:01Z" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:41:50Z" name="stopService" finished-at="2021-06-15T05:41:50Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopService -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@7e5c856f]" started-at="2021-06-08T06:45:01Z" name="setUp" finished-at="2021-06-08T06:45:24Z" duration-ms="23463" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:41:50Z" name="setUp" finished-at="2021-06-15T05:42:23Z" duration-ms="32497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@7e5c856f]" started-at="2021-06-08T06:45:24Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-08T06:45:31Z" duration-ms="7170" status="PASS">
+        <test-method signature="apiDemoTest(java.lang.String)[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:42:23Z" name="apiDemoTest" data-provider="InputData" finished-at="2021-06-15T05:42:30Z" duration-ms="7466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,25 +41,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
-        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@7e5c856f]" started-at="2021-06-08T06:45:31Z" name="stopService" finished-at="2021-06-08T06:45:32Z" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:42:30Z" name="stopService" finished-at="2021-06-15T05:42:30Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopService -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:42:30Z" name="setUp" finished-at="2021-06-15T05:43:03Z" duration-ms="32428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contentTest()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:43:03Z" name="contentTest" finished-at="2021-06-15T05:44:07Z" duration-ms="64148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTest -->
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:44:07Z" name="stopService" finished-at="2021-06-15T05:44:07Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopService -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:44:07Z" name="setUp" finished-at="2021-06-15T05:44:50Z" duration-ms="42722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="osTest()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:44:50Z" name="osTest" finished-at="2021-06-15T05:44:56Z" duration-ms="6133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- osTest -->
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:44:56Z" name="stopService" finished-at="2021-06-15T05:44:56Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopService -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:44:56Z" name="setUp" finished-at="2021-06-15T05:45:31Z" duration-ms="35419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewsTest()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:45:31Z" name="viewsTest" finished-at="2021-06-15T05:45:37Z" duration-ms="5203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewsTest -->
+        <test-method is-config="true" signature="stopService()[pri:0, instance:ApiDemoTest@1f53a5dc]" started-at="2021-06-15T05:45:37Z" name="stopService" finished-at="2021-06-15T05:45:37Z" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopService -->
       </class> <!-- ApiDemoTest -->
-      <class name="ContentTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ContentTest@413f69cc]" started-at="2021-06-08T06:45:32Z" name="setUp" finished-at="2021-06-08T06:45:55Z" duration-ms="23656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="contentTest()[pri:0, instance:ContentTest@413f69cc]" started-at="2021-06-08T06:45:55Z" name="contentTest" finished-at="2021-06-08T06:46:01Z" duration-ms="5798" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contentTest -->
-        <test-method is-config="true" signature="stopService()[pri:0, instance:ContentTest@413f69cc]" started-at="2021-06-08T06:46:01Z" name="stopService" finished-at="2021-06-08T06:46:01Z" duration-ms="64" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopService -->
-      </class> <!-- ContentTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

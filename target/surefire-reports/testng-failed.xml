@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="ApiDemoTest">
+      <class name="ContentTest">
         <methods>
           <include name="setUp"/>
           <include name="stopService"/>
-          <include name="apiDemoTest" invocation-numbers="1"/>
+          <include name="contentTest"/>
         </methods>
-      </class> <!-- ApiDemoTest -->
+      </class> <!-- ContentTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

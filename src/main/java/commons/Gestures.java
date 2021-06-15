@@ -1,5 +1,9 @@
 package commons;
 
+import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
+import static io.appium.java_client.touch.offset.ElementOption.element;
+import static java.time.Duration.ofSeconds;
+
 import java.time.Duration;
 
 import org.openqa.selenium.Alert;
@@ -17,10 +21,11 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class Gestures {
 
-	 public static AndroidDriver<AndroidElement>  driver;
+	 AndroidDriver<AndroidElement>  driver;
 	 
 	 public Gestures(AndroidDriver<AndroidElement> driver) {	
 			PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+		 this.driver=driver;
 		}
 	
 	public void scrollToText(String text) {
@@ -29,7 +34,7 @@ public class Gestures {
 	}
 	public void dragAndDrop(AndroidElement source, AndroidElement target) {
 
-		TouchAction action = new TouchAction(((AndroidDriver) driver));
+		TouchAction action = new TouchAction(driver);
 		action.longPress(ElementOption.element(source)).moveTo(ElementOption.element(target)).release().perform();
 	}
 	public void clickOnOKAlert() {
@@ -39,7 +44,7 @@ public class Gestures {
 	}
 	public void progressBar(AndroidElement source) {
 
-		TouchAction action = new TouchAction(((AndroidDriver) driver));
+		TouchAction action = new TouchAction(driver);
 		action.longPress(ElementOption.element(source)).moveTo(ElementOption.element(source, 250, 250)).release()
 				.perform();
 	}
@@ -57,7 +62,9 @@ public class Gestures {
 		.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2)))
 		.moveTo(PointOption.point(middleOfX, endYCoordinate)).release().perform();
 	}
-	public void dropDownMethod(AndroidElement element, String option, String value) {
+	
+	
+	public void dropDown(AndroidElement element, String option, String value) {
 
 		Select s = new Select(element);
 		if (option.equalsIgnoreCase("Value")) {
@@ -68,5 +75,22 @@ public class Gestures {
 			int i = Integer.parseInt(value);
 			s.selectByIndex(i);
 		}
+	}
+	public void longPress(AndroidElement source, AndroidElement destination) {
+		TouchAction action = new TouchAction(driver);
+		action.longPress(longPressOptions().withElement(element(source)).withDuration(ofSeconds(2)))
+		.moveTo(element(destination)).release().perform();
+	}
+	public void swipe(double sx, double sy, double ex, double ey) {
+
+		TouchAction action = new TouchAction(driver);
+		Dimension size = driver.manage().window().getSize();
+		int start_x = (int) (size.width * sx);
+		int start_y = (int) (size.height * sy);
+		int end_x = (int) (size.width * ex);
+		int end_y = (int) (size.height * ey);
+
+		action.press(PointOption.point(start_x, start_y)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2)))
+				.moveTo(PointOption.point(end_x, end_y)).release().perform();
 	}
 }

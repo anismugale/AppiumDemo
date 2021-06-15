@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 08 17:47:46 IST 2021</td>
+<td>Started on:</td><td>Tue Jun 15 20:12:09 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>53 seconds (53908 ms)</td>
+<tr><td>Total time:</td><td>33 seconds (33452 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,7 +75,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ContentTest.stopService()'><b>stopService</b><br>Test class: ContentTest</td>
+<td title='ApiDemoTest2.stopService()'><b>stopService</b><br>Test class: ApiDemoTest2</td>
 <td><div><pre>java.lang.NullPointerException
 	at commons.TestBase.stopService(TestBase.java:107)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -106,8 +106,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace27818833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace27818833'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1257090913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1257090913'><pre>java.lang.NullPointerException
 	at commons.TestBase.stopService(TestBase.java:107)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -139,7 +139,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>ContentTest@2421cc4</td></tr>
+<td>ApiDemoTest2@1fa1cab1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -149,11 +149,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ContentTest.contentTest()'><b>contentTest</b><br>Test class: ContentTest</td>
+<td title='ApiDemoTest2.rotatingButton()'><b>rotatingButton</b><br>Test class: ApiDemoTest2</td>
 <td><div><pre>java.lang.NullPointerException
-	at org.openqa.selenium.interactions.touch.TouchActions.&lt;init&gt;(TouchActions.java:38)
-	at pages.Content.contact(Content.java:46)
-	at ContentTest.contentTest(ContentTest.java:27)
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+	at io.appium.java_client.TouchAction.&lt;init&gt;(TouchAction.java:52)
+	at commons.Gestures.progressBar(Gestures.java:50)
+	at pages.ViewsPage.progress(ViewsPage.java:80)
+	at ApiDemoTest2.rotatingButton(ApiDemoTest2.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -179,11 +181,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace947043383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace947043383'><pre>java.lang.NullPointerException
-	at org.openqa.selenium.interactions.touch.TouchActions.&lt;init&gt;(TouchActions.java:38)
-	at pages.Content.contact(Content.java:46)
-	at ContentTest.contentTest(ContentTest.java:27)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1053832786", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1053832786'><pre>java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+	at io.appium.java_client.TouchAction.&lt;init&gt;(TouchAction.java:52)
+	at commons.Gestures.progressBar(Gestures.java:50)
+	at pages.ViewsPage.progress(ViewsPage.java:80)
+	at ApiDemoTest2.rotatingButton(ApiDemoTest2.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -210,8 +214,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>23</td>
-<td>ContentTest@2421cc4</td></tr>
+<td>10</td>
+<td>ApiDemoTest2@1fa1cab1</td></tr>
 </table><p>
 </body>
 </html>
