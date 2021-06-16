@@ -37,6 +37,9 @@ public class ApiDemoTest2 extends TestBase{
 		ViewsPage view=new ViewsPage(driver);
 		view.rotatingButton.click();
 		view.txBar.click();
+		driver.navigate().back();
+		view.ratingBar.click();
+		view.ratings.click();
 	}
 	@Test
 	public void dateWidgets() {
@@ -46,7 +49,7 @@ public class ApiDemoTest2 extends TestBase{
 		view.dateWidgets.click();
 		view.inline.click();
 		view.clock_9.click();
-		
+		view.swipeInClock();
 	}
 	@Test
 	public void gallery() {
@@ -57,4 +60,32 @@ public class ApiDemoTest2 extends TestBase{
 		view.people.click();
 		
 	}
+	@Test
+	public void dragAndDrop() {
+		HomePage home=new HomePage(driver);
+		home.views.click();
+		ViewsPage view=new ViewsPage(driver);
+		view.dragDrop.click();
+		view.dragDrop();
+	}
+	@Test
+	public void popUpMenu() {
+		HomePage home=new HomePage(driver);
+		home.views.click();
+		Gestures ges = new Gestures(driver);
+		ges.scrollToText("Popup Menu");
+		ViewsPage view=new ViewsPage(driver);
+		view.popUp.click();
+		view.makePopup.click();
+		view.edit.click();
+		view.share.click();
+		driver.navigate().back();
+		ges.scrollToText("Switches");
+		view.switches.click();
+		view.stdSwitch.click();
+		view.monitored.click();
+		view.customized.click();
+		
+	}
+	
 }

@@ -13,6 +13,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -20,6 +21,7 @@ import org.testng.annotations.BeforeTest;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 public class TestBase {
@@ -32,6 +34,7 @@ public class TestBase {
 		public void setUp() throws IOException, InterruptedException {
 		  service=startServer();
 		 AndroidDriver<AndroidElement> driver=capabilities("appName");
+		 PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 	  
@@ -79,10 +82,10 @@ public class TestBase {
     String device_name= System.getProperty("deviceName");
     String automation_name= System.getProperty("automationName");
  
-   if(device_name.contains("emulator"))
-  {
-  startEmulator();
-  }
+//   if(device_name.contains("emulator"))
+//  {
+//  startEmulator();
+//  }
      capabilities.setCapability( MobileCapabilityType.DEVICE_NAME, device_name);
      capabilities.setCapability( MobileCapabilityType.AUTOMATION_NAME, automation_name);
      capabilities.setCapability( MobileCapabilityType.NEW_COMMAND_TIMEOUT,14 );

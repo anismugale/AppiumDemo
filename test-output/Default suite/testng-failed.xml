@@ -6,8 +6,8 @@
       <class name="ApiDemoTest2">
         <methods>
           <include name="setUp"/>
+          <include name="dragAndDrop"/>
           <include name="stopService"/>
-          <include name="rotatingButton"/>
         </methods>
       </class> <!-- ApiDemoTest2 -->
     </classes>
