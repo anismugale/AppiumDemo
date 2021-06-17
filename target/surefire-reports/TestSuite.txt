@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 329.044 s - in TestSuite
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 18, Time elapsed: 96.844 s <<< FAILURE! - in TestSuite
+ApiDemoTest.stopService  Time elapsed: 10.968 s  <<< FAILURE!
+java.lang.NullPointerException
+
+ApiDemoTest2.stopService  Time elapsed: 24.421 s  <<< FAILURE!
+java.lang.NullPointerException
+

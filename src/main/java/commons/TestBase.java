@@ -30,6 +30,8 @@ public class TestBase {
 	  public static AndroidDriver<AndroidElement>  driver;
 	  public static DesiredCapabilities capabilities = new DesiredCapabilities();
 	  public static Properties property;
+	 
+	  
 	  @BeforeMethod
 		public void setUp() throws IOException, InterruptedException {
 		  service=startServer();

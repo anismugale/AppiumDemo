@@ -2,7 +2,6 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 
-import commons.Gestures;
 import commons.TestBase;
 import commons.TestData;
 import pages.Content;
@@ -12,48 +11,43 @@ import pages.Preferences;
 
 public class ApiDemoTest extends TestBase{
 	
-	static HomePage home=new HomePage(driver);
-	
 	@Test(dataProvider="InputData",dataProviderClass=TestData.class)
 	public void apiDemoTest(String input) throws IOException, InterruptedException {
 		
-		home.preferences.click();
+		HomePage home=new HomePage(driver);
+		home.preferences();
 		Preferences pref=new Preferences(driver);
-		pref.dependencies.click();
-		pref.checkbox.click();
-		pref.layout.click();
+		pref.dependencies();
+		pref.checkbox();
+		pref.layout();
 		pref.editText.sendKeys(input);
-		pref.buttons.get(1).click();;
+		pref.buttons.get(1).click();
 	}
 	@Test
 	public void contentTest() throws InterruptedException {
 		
-		home.content.click();
+		HomePage home=new HomePage(driver);
+		home.content();
 		Content content=new Content(driver);
-		content.storage.click();
-		content.externalStorage.click();
-		content.create.click();
-		content.delete.click();
-		driver.navigate().back();
-		driver.navigate().back();
-		content.provider.click();
-		content.pickContact.click();
-		content.contactButton.click();
-		content.chooseContact.click();
-		Thread.sleep(5000);
-		Gestures ges = new Gestures(driver);
-		ges.scrollToText("AppSierra");
+		content.storage();
+		content.externalStorage();
+		content.createDelete();
+		content.provider();
+		content.pickContact();
+		content.contactButton();
+		content.chooseContact();
 	}
 	@Test
 	public void osTest() {
 		
-		home.operatingSystem.click();
+		HomePage home=new HomePage(driver);
+		home.operatingSystem();
 		OperatingSystem os = new OperatingSystem(driver);
-		os.smsMessaging.click();
-		os.enableBroadcast.click();
-		os.recipient.sendKeys("9876543210");
-		os.messageBody.sendKeys("Welcome to AppSierra");
-		os.sendButton.click();
+		os.smsMessaging();
+		os.enableBroadcast();
+		os.recipient();
+		os.messageBody();
+		os.sendButton();
 	}
 
 }

@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">8 methods,  6 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest" class="method navigator-link" hash-for-method="apiDemoTest">apiDemoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest" class="method navigator-link" hash-for-method="contentTest">contentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest" class="method navigator-link" hash-for-method="osTest">osTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest2" class="method navigator-link" hash-for-method="rotatingButton">rotatingButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest2" class="method navigator-link" hash-for-method="scrolling">scrolling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest2" class="method navigator-link" hash-for-method="viewsTest">viewsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,22 +146,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest" class="method navigator-link" hash-for-method="apiDemoTest(@#$%)">apiDemoTest(@#$%)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest" class="method navigator-link" hash-for-method="contentTest">contentTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest" class="method navigator-link" hash-for-method="osTest">osTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest" class="method navigator-link" hash-for-method="viewsTest">viewsTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="ApiDemoTest2" class="method navigator-link" hash-for-method="popUpMenu">popUpMenu</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,6 +161,88 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ApiDemoTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rotatingButton">
+                  </a> <!-- rotatingButton -->
+                  <span class="method-name">rotatingButton</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at commons.TestBase.stopService(TestBase.java:112)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrolling">
+                  </a> <!-- scrolling -->
+                  <span class="method-name">scrolling</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at commons.TestBase.stopService(TestBase.java:112)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewsTest">
+                  </a> <!-- viewsTest -->
+                  <span class="method-name">viewsTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at commons.TestBase.stopService(TestBase.java:112)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ApiDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiDemoTest">
+                  </a> <!-- apiDemoTest -->
+                  <span class="method-name">apiDemoTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at commons.TestBase.stopService(TestBase.java:112)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contentTest">
+                  </a> <!-- contentTest -->
+                  <span class="method-name">contentTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at commons.TestBase.stopService(TestBase.java:112)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="osTest">
+                  </a> <!-- osTest -->
+                  <span class="method-name">osTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at commons.TestBase.stopService(TestBase.java:112)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -151,33 +257,19 @@
                   <span class="parameters">(hello)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ApiDemoTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="apiDemoTest(@#$%)">
-                  </a> <!-- apiDemoTest(@#$%) -->
-                  <span class="method-name">apiDemoTest</span>
-                  <span class="parameters">(@#$%)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="contentTest">
-                  </a> <!-- contentTest -->
-                  <span class="method-name">contentTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="osTest">
-                  </a> <!-- osTest -->
-                  <span class="method-name">osTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="viewsTest">
-                  </a> <!-- viewsTest -->
-                  <span class="method-name">viewsTest</span>
+                  <a name="popUpMenu">
+                  </a> <!-- popUpMenu -->
+                  <span class="method-name">popUpMenu</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,6 +291,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;ApiDemoTest&quot;/&gt;
+      &lt;class name=&quot;ApiDemoTest2&quot;/&gt;
       &lt;class name=&quot;commons.TestBase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -213,7 +306,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,32 +332,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'contentTest')
-data.setCell(0, 2, 'ApiDemoTest')
-data.setCell(0, 3, 64148);
+data.setCell(0, 1, 'popUpMenu')
+data.setCell(0, 2, 'ApiDemoTest2')
+data.setCell(0, 3, 24422);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'apiDemoTest')
 data.setCell(1, 2, 'ApiDemoTest')
-data.setCell(1, 3, 10463);
+data.setCell(1, 3, 10968);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'apiDemoTest')
-data.setCell(2, 2, 'ApiDemoTest')
-data.setCell(2, 3, 7466);
+data.setCell(2, 1, 'scrolling')
+data.setCell(2, 2, 'ApiDemoTest2')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'osTest')
+data.setCell(3, 1, 'apiDemoTest')
 data.setCell(3, 2, 'ApiDemoTest')
-data.setCell(3, 3, 6133);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'viewsTest')
-data.setCell(4, 2, 'ApiDemoTest')
-data.setCell(4, 3, 5203);
+data.setCell(4, 2, 'ApiDemoTest2')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'osTest')
+data.setCell(5, 2, 'ApiDemoTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'contentTest')
+data.setCell(6, 2, 'ApiDemoTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'rotatingButton')
+data.setCell(7, 2, 'ApiDemoTest2')
+data.setCell(7, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -291,65 +396,66 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">ApiDemoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">apiDemoTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contentTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">osTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApiDemoTest2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">rotatingButton</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrolling</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewsTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApiDemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">apiDemoTest(hello)</span>
-                <span class="method-start">84614 ms</span>
+                <span class="method-start">31698 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">stopService</span>
-                <span class="method-start">95080 ms</span>
+                <span class="method-start">42668 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApiDemoTest2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">95136 ms</span>
+                <span class="method-start">42677 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">apiDemoTest(@#$%)</span>
-                <span class="method-start">127633 ms</span>
+                <span class="method-name">popUpMenu</span>
+                <span class="method-start">69660 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">stopService</span>
-                <span class="method-start">135101 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">135152 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">contentTest</span>
-                <span class="method-start">167580 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">stopService</span>
-                <span class="method-start">231734 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">231796 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">osTest</span>
-                <span class="method-start">274518 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">stopService</span>
-                <span class="method-start">280651 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">280707 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">viewsTest</span>
-                <span class="method-start">316126 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">stopService</span>
-                <span class="method-start">321330 ms</span>
+                <span class="method-start">94082 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

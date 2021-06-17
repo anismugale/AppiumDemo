@@ -1,6 +1,5 @@
 import org.testng.annotations.Test;
 
-import commons.Gestures;
 import commons.TestBase;
 import pages.HomePage;
 import pages.ViewsPage;
@@ -10,82 +9,48 @@ public class ApiDemoTest2 extends TestBase{
 	@Test
 	public void viewsTest() {
 		HomePage home=new HomePage(driver);
-		home.views.click();
+		home.views();
 		ViewsPage view=new ViewsPage(driver);
-		view.expandableLists.click();
-		view.customAdaptor.click();
-		view.peopleNames.click();
-		driver.navigate().back();
-		driver.navigate().back();
-		
-		view.controls.click();
-		view.darkTheme.click();
-		view.textBox.sendKeys("Hello");
-		driver.hideKeyboard();
-		view.radioButton.click();
-		view.starButton.click();
-		view.select.click();
-		view.selectEarth.click();
-
+		view.expandableLists();
+		view.customAdaptor();
+		view.peopleNames();
+		view.controls();
+		view.darkTheme();
+		view.textBox();
+		view.clicksButtons();
+		view.dropDown();
 	}
 	@Test
-	public void rotatingButton() {
+	public void progressBars() {
 		HomePage home=new HomePage(driver);
-		home.views.click();
-		Gestures ges = new Gestures(driver);
-		ges.scrollToText("Rotating Button");
+		home.views();
 		ViewsPage view=new ViewsPage(driver);
-		view.rotatingButton.click();
-		view.txBar.click();
-		driver.navigate().back();
-		view.ratingBar.click();
-		view.ratings.click();
+		view.rotating();
+		view.scrollBars();
+		view.rotatingButtons();
+		view.ratingBars();
+		view.seekBar();
 	}
 	@Test
-	public void dateWidgets() {
+	public void dragging() {
 		HomePage home=new HomePage(driver);
-		home.views.click();
+		home.views();
 		ViewsPage view=new ViewsPage(driver);
-		view.dateWidgets.click();
-		view.inline.click();
-		view.clock_9.click();
-		view.swipeInClock();
-	}
-	@Test
-	public void gallery() {
-		HomePage home=new HomePage(driver);
-		home.views.click();
-		ViewsPage view=new ViewsPage(driver);
-		view.gallery.click();
-		view.people.click();
-		
-	}
-	@Test
-	public void dragAndDrop() {
-		HomePage home=new HomePage(driver);
-		home.views.click();
-		ViewsPage view=new ViewsPage(driver);
-		view.dragDrop.click();
+		view.dateWidgets();
+		view.inline();
+		view.clock();
 		view.dragDrop();
 	}
 	@Test
 	public void popUpMenu() {
 		HomePage home=new HomePage(driver);
-		home.views.click();
-		Gestures ges = new Gestures(driver);
-		ges.scrollToText("Popup Menu");
+		home.views();
 		ViewsPage view=new ViewsPage(driver);
-		view.popUp.click();
-		view.makePopup.click();
-		view.edit.click();
-		view.share.click();
-		driver.navigate().back();
-		ges.scrollToText("Switches");
-		view.switches.click();
-		view.stdSwitch.click();
-		view.monitored.click();
-		view.customized.click();
-		
+		view.popUp();
+		view.makePopup();
+		view.edit();
+		view.switches();
+		view.toggleSwitch();
 	}
 	
 }
