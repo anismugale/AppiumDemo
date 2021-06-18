@@ -1,0 +1,626 @@
+[INFO ] 2021-06-18 15:54:22.573 [main] Listeners - *******************ApiDemoTest.apiDemoTest started*******************
+[INFO ] 2021-06-18 15:54:22.854 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='Preference']})
+[INFO ] 2021-06-18 15:54:22.855 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='Preference']})
+[INFO ] 2021-06-18 15:54:23.144 [main] HomePage - Clicks The Preferences
+[INFO ] 2021-06-18 15:54:23.144 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@text='Preference']})
+[INFO ] 2021-06-18 15:54:24.878 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='3. Preference dependencies']})
+[INFO ] 2021-06-18 15:54:24.879 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='3. Preference dependencies']})
+[INFO ] 2021-06-18 15:54:25.016 [main] Preferences - Clicks The Dependencies
+[INFO ] 2021-06-18 15:54:25.016 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@text='3. Preference dependencies']})
+[INFO ] 2021-06-18 15:54:26.576 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: android:id/checkbox})
+[INFO ] 2021-06-18 15:54:26.577 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: android:id/checkbox})
+[INFO ] 2021-06-18 15:54:26.756 [main] Preferences - Clicks The Checkbox
+[INFO ] 2021-06-18 15:54:26.756 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: android:id/checkbox})
+[INFO ] 2021-06-18 15:54:27.712 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.RelativeLayout)[2]})
+[INFO ] 2021-06-18 15:54:27.713 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.RelativeLayout)[2]})
+[INFO ] 2021-06-18 15:54:28.334 [main] Preferences - Clicks The Layout
+[INFO ] 2021-06-18 15:54:28.335 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: (//android.widget.RelativeLayout)[2]})
+[INFO ] 2021-06-18 15:54:32.718 [main] Listeners - *******************ApiDemoTest.apiDemoTest passed*******************
+[INFO ] 2021-06-18 15:55:02.664 [main] Listeners - *******************ApiDemoTest.apiDemoTest started*******************
+[INFO ] 2021-06-18 15:55:02.701 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='Preference']})
+[INFO ] 2021-06-18 15:55:02.702 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='Preference']})
+[INFO ] 2021-06-18 15:55:03.011 [main] HomePage - Clicks The Preferences
+[INFO ] 2021-06-18 15:55:03.011 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@text='Preference']})
+[INFO ] 2021-06-18 15:55:04.960 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='3. Preference dependencies']})
+[INFO ] 2021-06-18 15:55:04.960 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@text='3. Preference dependencies']})
+[INFO ] 2021-06-18 15:55:05.103 [main] Preferences - Clicks The Dependencies
+[INFO ] 2021-06-18 15:55:05.104 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@text='3. Preference dependencies']})
+[INFO ] 2021-06-18 15:55:06.777 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: android:id/checkbox})
+[INFO ] 2021-06-18 15:55:06.778 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: android:id/checkbox})
+[INFO ] 2021-06-18 15:55:06.883 [main] Preferences - Clicks The Checkbox
+[INFO ] 2021-06-18 15:55:06.883 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: android:id/checkbox})
+[INFO ] 2021-06-18 15:55:07.828 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.RelativeLayout)[2]})
+[INFO ] 2021-06-18 15:55:07.829 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.RelativeLayout)[2]})
+[INFO ] 2021-06-18 15:55:08.447 [main] Preferences - Clicks The Layout
+[INFO ] 2021-06-18 15:55:08.447 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: (//android.widget.RelativeLayout)[2]})
+[INFO ] 2021-06-18 15:55:12.623 [main] Listeners - *******************ApiDemoTest.apiDemoTest passed*******************
+[INFO ] 2021-06-18 15:55:44.104 [main] Listeners - *******************ApiDemoTest.contentTest started*******************
+[INFO ] 2021-06-18 15:55:44.136 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Content"]})
+[INFO ] 2021-06-18 15:55:44.136 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Content"]})
+[INFO ] 2021-06-18 15:55:44.500 [main] HomePage - Clicks The Content
+[INFO ] 2021-06-18 15:55:44.500 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Content"]})
+[INFO ] 2021-06-18 15:55:46.439 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Storage"]})
+[INFO ] 2021-06-18 15:55:46.439 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Storage"]})
+[INFO ] 2021-06-18 15:55:47.033 [main] Content - Clicks The Storage
+[INFO ] 2021-06-18 15:55:47.033 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Storage"]})
+[INFO ] 2021-06-18 15:55:49.014 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: android:id/text1})
+[INFO ] 2021-06-18 15:55:49.015 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: android:id/text1})
+[INFO ] 2021-06-18 15:55:49.128 [main] Content - Clicks The External Storage
+[INFO ] 2021-06-18 15:55:49.129 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: android:id/text1})
+[INFO ] 2021-06-18 15:55:49.992 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.Button[@content-desc="Create"])[1]})
+[INFO ] 2021-06-18 15:55:49.992 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.Button[@content-desc="Create"])[1]})
+[INFO ] 2021-06-18 15:55:51.253 [main] Content - Clicks The Create
+[INFO ] 2021-06-18 15:55:51.253 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: (//android.widget.Button[@content-desc="Create"])[1]})
+[INFO ] 2021-06-18 15:55:51.703 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.Button[@content-desc="Delete"])[1]})
+[INFO ] 2021-06-18 15:55:51.703 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: (//android.widget.Button[@content-desc="Delete"])[1]})
+[INFO ] 2021-06-18 15:55:52.417 [main] Content - Clicks The Delete
+[INFO ] 2021-06-18 15:55:52.418 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: (//android.widget.Button[@content-desc="Delete"])[1]})
+[INFO ] 2021-06-18 15:55:54.694 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Provider"]})
+[INFO ] 2021-06-18 15:55:54.695 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Provider"]})
+[INFO ] 2021-06-18 15:55:55.526 [main] Content - Clicks The Provider
+[INFO ] 2021-06-18 15:55:55.527 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Provider"]})
+[INFO ] 2021-06-18 15:55:57.008 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Pick Contact"]})
+[INFO ] 2021-06-18 15:55:57.009 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Pick Contact"]})
+[INFO ] 2021-06-18 15:55:57.137 [main] Content - Clicks The Pick Contact
+[INFO ] 2021-06-18 15:55:57.138 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Pick Contact"]})
+[INFO ] 2021-06-18 15:55:58.525 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/pick_contact})
+[INFO ] 2021-06-18 15:55:58.526 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/pick_contact})
+[INFO ] 2021-06-18 15:55:59.097 [main] Content - Clicks The Contact Button 
+[INFO ] 2021-06-18 15:55:59.097 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/pick_contact})
+[INFO ] 2021-06-18 15:55:59.348 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Choose a contact')]})
+[INFO ] 2021-06-18 15:55:59.348 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Choose a contact')]})
+[INFO ] 2021-06-18 15:56:03.121 [main] Content - Clicks The Choose Contact
+[INFO ] 2021-06-18 15:56:03.122 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Choose a contact')]})
+[INFO ] 2021-06-18 15:56:06.429 [main] Listeners - *******************ApiDemoTest.contentTest passed*******************
+[INFO ] 2021-06-18 15:56:33.688 [main] Listeners - *******************ApiDemoTest.osTest started*******************
+[INFO ] 2021-06-18 15:56:33.720 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="OS"]})
+[INFO ] 2021-06-18 15:56:33.721 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="OS"]})
+[INFO ] 2021-06-18 15:56:33.954 [main] HomePage - Clicks The Operating System
+[INFO ] 2021-06-18 15:56:33.954 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="OS"]})
+[INFO ] 2021-06-18 15:56:35.437 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="SMS Messaging"]})
+[INFO ] 2021-06-18 15:56:35.437 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="SMS Messaging"]})
+[INFO ] 2021-06-18 15:56:35.568 [main] OperatingSystem - Clicks The SMS Messaging
+[INFO ] 2021-06-18 15:56:35.569 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="SMS Messaging"]})
+[INFO ] 2021-06-18 15:56:37.540 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_enable_receiver})
+[INFO ] 2021-06-18 15:56:37.541 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_enable_receiver})
+[INFO ] 2021-06-18 15:56:37.664 [main] OperatingSystem - Clicks The Enable Broadcast
+[INFO ] 2021-06-18 15:56:37.666 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/sms_enable_receiver})
+[INFO ] 2021-06-18 15:56:38.023 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_recipient})
+[INFO ] 2021-06-18 15:56:38.023 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_recipient})
+[INFO ] 2021-06-18 15:56:38.594 [main] OperatingSystem - Clicks The Recipient
+[INFO ] 2021-06-18 15:56:39.546 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_content})
+[INFO ] 2021-06-18 15:56:39.547 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_content})
+[INFO ] 2021-06-18 15:56:40.519 [main] OperatingSystem - Clicks The Message Body
+[INFO ] 2021-06-18 15:56:41.150 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_send_message})
+[INFO ] 2021-06-18 15:56:41.150 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/sms_send_message})
+[INFO ] 2021-06-18 15:56:41.697 [main] OperatingSystem - Clicks The Send Button
+[INFO ] 2021-06-18 15:56:41.697 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/sms_send_message})
+[INFO ] 2021-06-18 15:56:41.951 [main] Listeners - *******************ApiDemoTest.osTest passed*******************
+[INFO ] 2021-06-18 15:57:13.907 [main] Listeners - *******************ApiDemoTest2.dragging started*******************
+[INFO ] 2021-06-18 15:57:13.934 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:57:13.934 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:57:14.288 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 15:57:14.289 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:57:15.843 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Date Widgets"]})
+[INFO ] 2021-06-18 15:57:15.844 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Date Widgets"]})
+[INFO ] 2021-06-18 15:57:15.973 [main] ViewsPage - Clicks The Date Widgets
+[INFO ] 2021-06-18 15:57:15.973 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Date Widgets"]})
+[INFO ] 2021-06-18 15:57:17.973 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Inline"]})
+[INFO ] 2021-06-18 15:57:17.973 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Inline"]})
+[INFO ] 2021-06-18 15:57:18.543 [main] ViewsPage - Clicks The Inline
+[INFO ] 2021-06-18 15:57:18.543 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Inline"]})
+[INFO ] 2021-06-18 15:57:20.529 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.RadialTimePickerView.RadialPickerTouchHelper[@content-desc="9"]})
+[INFO ] 2021-06-18 15:57:20.530 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.RadialTimePickerView.RadialPickerTouchHelper[@content-desc="9"]})
+[INFO ] 2021-06-18 15:57:20.690 [main] ViewsPage - Clicks The 9 In The Clock
+[INFO ] 2021-06-18 15:57:20.690 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.RadialTimePickerView.RadialPickerTouchHelper[@content-desc="9"]})
+[INFO ] 2021-06-18 15:57:31.032 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Drag and Drop"]})
+[INFO ] 2021-06-18 15:57:31.033 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Drag and Drop"]})
+[INFO ] 2021-06-18 15:57:31.706 [main] ViewsPage - Clicks The Drag Drop
+[INFO ] 2021-06-18 15:57:31.706 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Drag and Drop"]})
+[INFO ] 2021-06-18 15:57:41.363 [main] Listeners - *******************ApiDemoTest2.dragging passed*******************
+[INFO ] 2021-06-18 15:58:08.549 [main] Listeners - *******************ApiDemoTest2.popUpMenu started*******************
+[INFO ] 2021-06-18 15:58:08.579 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:58:08.579 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:58:09.738 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 15:58:09.738 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:58:14.933 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 15:58:14.933 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 15:58:15.049 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 15:58:15.050 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 15:58:15.966 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 15:58:15.967 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 15:58:17.239 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 15:58:17.239 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 15:58:18.019 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 15:58:18.020 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 15:58:19.088 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 15:58:19.088 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 15:58:20.870 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 15:58:20.870 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 15:58:20.996 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 15:58:20.997 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 15:58:27.826 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 15:58:27.826 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 15:58:27.971 [main] ViewsPage - Clicks The Switches
+[INFO ] 2021-06-18 15:58:27.971 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 15:58:29.940 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:29.942 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:30.099 [main] ViewsPage - Clicks The Standard Switch
+[INFO ] 2021-06-18 15:58:30.099 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:30.944 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:30.944 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:32.022 [main] ViewsPage - Clicks The Monitored Switch
+[INFO ] 2021-06-18 15:58:32.023 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:33.090 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:33.091 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:34.277 [main] ViewsPage - Clicks The Customized Switch
+[INFO ] 2021-06-18 15:58:34.279 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 15:58:35.044 [main] Listeners - *******************ApiDemoTest2.popUpMenu passed*******************
+[INFO ] 2021-06-18 15:58:58.565 [main] Listeners - *******************ApiDemoTest2.progressBars started*******************
+[INFO ] 2021-06-18 15:58:58.594 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:58:58.595 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:58:59.006 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 15:58:59.007 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:59:06.060 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 15:59:06.060 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 15:59:06.203 [main] ViewsPage - Clicks The Rotating Button
+[INFO ] 2021-06-18 15:59:06.203 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 15:59:07.820 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 15:59:07.821 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 15:59:07.958 [main] ViewsPage - Clicks The TX Bar
+[INFO ] 2021-06-18 15:59:08.675 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 15:59:08.676 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 15:59:09.155 [main] ViewsPage - Clicks The SY Bar
+[INFO ] 2021-06-18 15:59:09.825 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 15:59:09.826 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 15:59:10.209 [main] ViewsPage - Clicks The X Bar
+[INFO ] 2021-06-18 15:59:10.910 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 15:59:10.910 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 15:59:11.153 [main] ViewsPage - Clicks The Z Bar
+[INFO ] 2021-06-18 15:59:13.720 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 15:59:13.721 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 15:59:13.837 [main] ViewsPage - Clicks The Rating Bar
+[INFO ] 2021-06-18 15:59:13.838 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 15:59:17.653 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 15:59:17.654 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 15:59:18.229 [main] ViewsPage - Clicks The Seek Bar Buttonr
+[INFO ] 2021-06-18 15:59:18.230 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 15:59:21.844 [main] Listeners - *******************ApiDemoTest2.progressBars passed*******************
+[INFO ] 2021-06-18 15:59:46.509 [main] Listeners - *******************ApiDemoTest2.viewsTest started*******************
+[INFO ] 2021-06-18 15:59:46.538 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:59:46.538 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:59:46.811 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 15:59:46.811 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 15:59:48.769 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 15:59:48.769 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 15:59:49.344 [main] ViewsPage - Clicks The Expandable Lists
+[INFO ] 2021-06-18 15:59:49.345 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 15:59:51.283 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 15:59:51.283 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 15:59:51.391 [main] ViewsPage - Clicks The Custom Adaptor
+[INFO ] 2021-06-18 15:59:51.391 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 15:59:53.290 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 15:59:53.291 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 15:59:53.429 [main] ViewsPage - Clicks The People Names
+[INFO ] 2021-06-18 15:59:53.429 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 15:59:57.829 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Controls"]})
+[INFO ] 2021-06-18 15:59:57.829 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Controls"]})
+[INFO ] 2021-06-18 15:59:58.437 [main] ViewsPage - Clicks The Controls
+[INFO ] 2021-06-18 15:59:58.437 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Controls"]})
+[INFO ] 2021-06-18 15:59:59.992 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Dark Theme"]})
+[INFO ] 2021-06-18 15:59:59.992 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Dark Theme"]})
+[INFO ] 2021-06-18 16:00:00.129 [main] ViewsPage - Clicks The Dark Theme
+[INFO ] 2021-06-18 16:00:00.129 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Dark Theme"]})
+[INFO ] 2021-06-18 16:00:03.835 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/edit})
+[INFO ] 2021-06-18 16:00:03.835 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/edit})
+[INFO ] 2021-06-18 16:00:04.819 [main] ViewsPage - Enters Text in Text Box
+[INFO ] 2021-06-18 16:00:07.938 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/radio1})
+[INFO ] 2021-06-18 16:00:07.938 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/radio1})
+[INFO ] 2021-06-18 16:00:08.811 [main] ViewsPage - Clicks The Radio Button
+[INFO ] 2021-06-18 16:00:08.811 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/radio1})
+[INFO ] 2021-06-18 16:00:09.067 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/star})
+[INFO ] 2021-06-18 16:00:09.068 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/star})
+[INFO ] 2021-06-18 16:00:09.620 [main] ViewsPage - Clicks The Star Button
+[INFO ] 2021-06-18 16:00:09.620 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/star})
+[INFO ] 2021-06-18 16:00:09.886 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/spinner1})
+[INFO ] 2021-06-18 16:00:09.886 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/spinner1})
+[INFO ] 2021-06-18 16:00:10.456 [main] ViewsPage - Clicks The select
+[INFO ] 2021-06-18 16:00:10.456 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/spinner1})
+[INFO ] 2021-06-18 16:00:10.826 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Earth')]})
+[INFO ] 2021-06-18 16:00:10.826 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Earth')]})
+[INFO ] 2021-06-18 16:00:11.855 [main] ViewsPage - Clicks The Select Earth
+[INFO ] 2021-06-18 16:00:11.856 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Earth')]})
+[INFO ] 2021-06-18 16:00:13.776 [main] Listeners - *******************ApiDemoTest2.viewsTest passed*******************
+[INFO ] 2021-06-18 18:29:52.679 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 18:29:52.748 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 18:29:53.063 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 18:29:53.063 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 18:29:55.120 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 18:29:55.120 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 18:29:55.248 [main] ViewsPage - Clicks The Expandable Lists
+[INFO ] 2021-06-18 18:29:55.248 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 18:29:57.548 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 18:29:57.549 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 18:29:57.669 [main] ViewsPage - Clicks The Custom Adaptor
+[INFO ] 2021-06-18 18:29:57.669 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 18:29:59.533 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 18:29:59.534 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 18:29:59.644 [main] ViewsPage - Clicks The People Names
+[INFO ] 2021-06-18 18:29:59.644 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 18:30:02.869 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Sample action')]})
+[INFO ] 2021-06-18 18:30:02.869 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Sample action')]})
+[INFO ] 2021-06-18 18:34:14.414 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 18:34:14.418 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 18:34:15.043 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 18:34:15.043 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 18:34:16.545 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 18:34:16.546 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 18:34:16.636 [main] ViewsPage - Clicks The Expandable Lists
+[INFO ] 2021-06-18 18:34:16.637 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Expandable Lists"]})
+[INFO ] 2021-06-18 18:34:18.057 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 18:34:18.057 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 18:34:18.157 [main] ViewsPage - Clicks The Custom Adaptor
+[INFO ] 2021-06-18 18:34:18.157 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="1. Custom Adapter"]})
+[INFO ] 2021-06-18 18:34:19.551 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 18:34:19.551 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 18:34:19.671 [main] ViewsPage - Clicks The People Names
+[INFO ] 2021-06-18 18:34:19.671 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'People Names')]})
+[INFO ] 2021-06-18 18:34:23.056 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Controls"]})
+[INFO ] 2021-06-18 18:34:23.056 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Controls"]})
+[INFO ] 2021-06-18 18:34:23.196 [main] ViewsPage - Clicks The Controls
+[INFO ] 2021-06-18 18:34:23.196 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Controls"]})
+[INFO ] 2021-06-18 18:34:24.597 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Dark Theme"]})
+[INFO ] 2021-06-18 18:34:24.597 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Dark Theme"]})
+[INFO ] 2021-06-18 18:34:24.715 [main] ViewsPage - Clicks The Dark Theme
+[INFO ] 2021-06-18 18:34:24.716 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="2. Dark Theme"]})
+[INFO ] 2021-06-18 18:34:26.901 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/edit})
+[INFO ] 2021-06-18 18:34:26.901 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/edit})
+[INFO ] 2021-06-18 18:34:27.044 [main] ViewsPage - Enters Text in Text Box
+[INFO ] 2021-06-18 18:34:29.700 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/radio1})
+[INFO ] 2021-06-18 18:34:29.700 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/radio1})
+[INFO ] 2021-06-18 18:34:30.191 [main] ViewsPage - Clicks The Radio Button
+[INFO ] 2021-06-18 18:34:30.192 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/radio1})
+[INFO ] 2021-06-18 18:34:30.415 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/star})
+[INFO ] 2021-06-18 18:34:30.415 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/star})
+[INFO ] 2021-06-18 18:34:30.970 [main] ViewsPage - Clicks The Star Button
+[INFO ] 2021-06-18 18:34:30.970 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/star})
+[INFO ] 2021-06-18 18:34:31.188 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/spinner1})
+[INFO ] 2021-06-18 18:34:31.188 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/spinner1})
+[INFO ] 2021-06-18 18:34:31.744 [main] ViewsPage - Clicks The select
+[INFO ] 2021-06-18 18:34:31.745 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.id: io.appium.android.apis:id/spinner1})
+[INFO ] 2021-06-18 18:34:31.988 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Earth')]})
+[INFO ] 2021-06-18 18:34:31.988 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Earth')]})
+[INFO ] 2021-06-18 18:34:33.004 [main] ViewsPage - Clicks The Select Earth
+[INFO ] 2021-06-18 18:34:33.004 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Earth')]})
+[INFO ] 2021-06-18 19:35:10.944 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:35:10.968 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:35:11.240 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:35:11.240 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:35:16.492 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:35:16.493 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:35:16.628 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:35:16.629 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:35:18.163 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:35:18.165 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:35:18.308 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:35:18.308 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:35:18.549 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:35:18.550 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:35:20.434 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:35:20.434 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:35:22.213 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:35:22.214 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:35:22.334 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:35:22.334 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:35:28.366 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:35:28.366 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:36:29.923 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:36:29.927 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:36:30.155 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:36:30.155 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:36:35.138 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:36:35.139 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:36:35.300 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:36:35.300 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:36:36.846 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:36:36.847 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:36:36.976 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:36:36.977 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:36:37.199 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:36:37.199 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:36:38.250 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:36:38.251 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:36:39.556 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:36:39.556 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:36:39.657 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:36:39.657 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:36:43.578 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:36:43.579 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:37:50.116 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:37:50.118 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:37:50.300 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:37:50.301 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:37:56.639 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:37:56.639 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:37:56.757 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:37:56.757 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:37:58.161 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:37:58.161 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:37:58.251 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:37:58.251 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:37:58.493 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:37:58.493 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:37:59.476 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:37:59.477 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:38:01.196 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:38:01.197 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:38:01.305 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:38:01.305 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:38:05.928 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:38:05.928 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:39:43.537 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:39:43.542 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:39:43.732 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:39:43.733 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:39:48.990 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:39:48.991 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:39:49.205 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:39:49.205 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:39:50.679 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:39:50.679 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:39:50.786 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:39:50.786 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:39:51.015 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:39:51.016 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:39:52.002 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:39:52.002 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:39:53.302 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:39:53.303 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:39:53.424 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:39:53.424 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:39:57.244 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:39:57.246 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:41:02.861 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:41:02.864 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:41:03.100 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:41:03.100 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:41:08.343 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:41:08.343 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:41:09.224 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:41:09.224 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:41:10.614 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:41:10.615 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:41:25.173 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:41:25.173 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:41:26.111 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:41:26.111 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:41:27.219 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:41:27.219 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:41:29.349 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:41:29.350 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:41:29.463 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:41:29.463 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:41:33.954 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:41:33.954 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:43:09.257 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:43:09.260 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:43:09.470 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:43:09.471 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:43:15.136 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:43:15.136 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:43:15.284 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:43:15.284 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:43:16.644 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:43:16.644 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:43:17.221 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:43:17.221 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:43:17.460 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:43:17.460 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:43:18.555 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:43:18.556 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:43:19.751 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:43:19.752 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:43:19.876 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:43:19.876 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:43:24.222 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:43:24.222 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:44:39.702 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:44:39.706 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:44:39.923 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:44:39.923 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:44:45.333 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:44:45.334 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:44:45.437 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:44:45.438 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:44:47.153 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:44:47.153 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:44:47.270 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:44:47.270 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:44:47.571 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:44:47.571 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:44:48.815 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:44:48.815 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:44:50.916 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:44:50.917 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:44:51.069 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:44:51.069 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:44:54.504 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:44:54.505 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:46:11.943 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:46:11.947 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:46:12.191 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:46:12.192 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:46:17.508 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:46:17.508 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:46:17.639 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:46:17.639 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:46:19.044 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:46:19.044 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:46:19.127 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:46:19.128 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:46:19.395 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:46:19.395 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:46:20.352 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:46:20.352 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:46:21.601 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:46:21.601 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:46:21.685 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:46:21.685 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:46:24.956 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:46:24.957 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:47:30.577 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:47:30.581 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:47:30.757 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:47:30.757 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:47:35.972 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:47:35.972 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:47:36.564 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:47:36.564 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:47:37.995 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:47:37.996 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:47:38.152 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:47:38.153 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:47:38.457 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:47:38.457 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:47:39.534 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:47:39.535 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:47:40.972 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:47:40.972 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:47:41.097 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:47:41.097 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:47:45.280 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:47:45.280 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:47:58.641 [main] ViewsPage - Clicks The Switches
+[INFO ] 2021-06-18 19:47:58.641 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:48:01.765 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:01.766 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:01.887 [main] ViewsPage - Clicks The Standard Switch
+[INFO ] 2021-06-18 19:48:01.888 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:02.248 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:02.248 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:03.653 [main] ViewsPage - Clicks The Monitored Switch
+[INFO ] 2021-06-18 19:48:03.653 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:04.031 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:04.032 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:05.124 [main] ViewsPage - Clicks The Customized Switch
+[INFO ] 2021-06-18 19:48:05.124 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 19:48:51.808 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:48:51.811 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:48:52.899 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:48:52.900 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:48:58.317 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:48:58.317 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:48:58.438 [main] ViewsPage - Clicks The Pop Up
+[INFO ] 2021-06-18 19:48:58.438 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Popup Menu"]})
+[INFO ] 2021-06-18 19:48:59.882 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:48:59.883 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:49:00.024 [main] ViewsPage - Clicks The Make Popup
+[INFO ] 2021-06-18 19:49:00.024 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Button[@content-desc="Make a Popup!"]})
+[INFO ] 2021-06-18 19:49:00.352 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:49:00.352 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:49:01.851 [main] ViewsPage - Clicks The Edit
+[INFO ] 2021-06-18 19:49:01.851 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Edit')]})
+[INFO ] 2021-06-18 19:49:03.751 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:49:03.751 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:49:03.871 [main] ViewsPage - Clicks The Share
+[INFO ] 2021-06-18 19:49:03.871 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Share')]})
+[INFO ] 2021-06-18 19:49:08.605 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:49:08.605 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:49:08.834 [main] ViewsPage - Clicks The Switches
+[INFO ] 2021-06-18 19:49:08.834 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Switches"]})
+[INFO ] 2021-06-18 19:49:10.378 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:10.378 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:10.486 [main] ViewsPage - Clicks The Standard Switch
+[INFO ] 2021-06-18 19:49:10.486 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Standard switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:10.836 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:10.837 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:11.428 [main] ViewsPage - Clicks The Monitored Switch
+[INFO ] 2021-06-18 19:49:11.428 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Monitored switch"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:11.762 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:11.762 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 19:49:12.389 [main] ViewsPage - Clicks The Customized Switch
+[INFO ] 2021-06-18 19:49:12.390 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.Switch[@content-desc="Customized text"and @checkable='true']})
+[INFO ] 2021-06-18 19:58:40.239 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:58:40.245 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:58:40.631 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 19:58:40.631 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 19:58:47.980 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 19:58:47.980 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 19:58:48.123 [main] ViewsPage - Clicks The Rotating Button
+[INFO ] 2021-06-18 19:58:48.124 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 19:58:49.740 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 19:58:49.741 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 19:58:49.845 [main] ViewsPage - Clicks The TX Bar
+[INFO ] 2021-06-18 19:58:50.543 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 19:58:50.543 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 19:58:50.898 [main] ViewsPage - Clicks The SY Bar
+[INFO ] 2021-06-18 19:58:51.608 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 19:58:51.608 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 19:58:51.859 [main] ViewsPage - Clicks The X Bar
+[INFO ] 2021-06-18 19:58:52.558 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 19:58:52.558 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 19:58:52.801 [main] ViewsPage - Clicks The Z Bar
+[INFO ] 2021-06-18 19:58:54.056 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 19:58:54.056 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 19:58:55.097 [main] ViewsPage - Clicks The Rating Bar
+[INFO ] 2021-06-18 19:58:55.097 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 19:58:58.388 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 19:58:58.388 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 19:59:00.542 [main] ViewsPage - Clicks The Seek Bar Buttonr
+[INFO ] 2021-06-18 19:59:00.542 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 20:00:28.127 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 20:00:28.130 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 20:00:28.316 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 20:00:28.317 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 20:00:36.140 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 20:00:36.140 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 20:00:36.295 [main] ViewsPage - Clicks The Rotating Button
+[INFO ] 2021-06-18 20:00:36.295 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 20:00:37.822 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 20:00:37.822 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 20:00:37.954 [main] ViewsPage - Clicks The TX Bar
+[INFO ] 2021-06-18 20:00:41.788 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 20:00:41.788 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 20:00:42.217 [main] ViewsPage - Clicks The SY Bar
+[INFO ] 2021-06-18 20:00:44.867 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 20:00:44.867 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 20:00:45.258 [main] ViewsPage - Clicks The X Bar
+[INFO ] 2021-06-18 20:00:47.893 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 20:00:47.894 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 20:00:48.021 [main] ViewsPage - Clicks The Z Bar
+[INFO ] 2021-06-18 20:00:51.710 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 20:00:51.710 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 20:00:52.299 [main] ViewsPage - Clicks The Rating Bar
+[INFO ] 2021-06-18 20:00:52.299 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 20:00:58.270 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 20:00:58.270 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 20:00:58.406 [main] ViewsPage - Clicks The Seek Bar Buttonr
+[INFO ] 2021-06-18 20:00:58.407 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 20:01:59.125 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 20:01:59.129 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 20:01:59.276 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-18 20:01:59.276 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-18 20:02:07.601 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 20:02:07.601 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 20:02:07.719 [main] ViewsPage - Clicks The Rotating Button
+[INFO ] 2021-06-18 20:02:07.719 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-18 20:02:09.635 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 20:02:09.635 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-18 20:02:09.754 [main] ViewsPage - Clicks The TX Bar
+[INFO ] 2021-06-18 20:02:10.492 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 20:02:10.493 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-18 20:02:11.211 [main] ViewsPage - Clicks The SY Bar
+[INFO ] 2021-06-18 20:02:11.945 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 20:02:11.946 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-18 20:02:12.639 [main] ViewsPage - Clicks The X Bar
+[INFO ] 2021-06-18 20:02:13.390 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 20:02:13.390 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-18 20:02:13.631 [main] ViewsPage - Clicks The Z Bar
+[INFO ] 2021-06-18 20:02:16.549 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 20:02:16.550 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 20:02:17.090 [main] ViewsPage - Clicks The Rating Bar
+[INFO ] 2021-06-18 20:02:17.091 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-18 20:02:21.026 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 20:02:21.026 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-18 20:02:21.803 [main] ViewsPage - Clicks The Seek Bar Buttonr
+[INFO ] 2021-06-18 20:02:21.803 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})

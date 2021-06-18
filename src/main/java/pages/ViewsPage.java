@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import commons.BasePage;
+import commons.Direction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -21,6 +22,9 @@ public class ViewsPage extends BasePage{
 	
 	@AndroidFindBy(xpath="//*[contains(@text,'People Names')]")
 	public AndroidElement peopleNames;
+	
+	@AndroidFindBy(xpath="//*[contains(@text,'Sample action')]")
+	public AndroidElement sampleAction;
 	
 	@AndroidFindBy(xpath="//android.widget.TextView[@content-desc=\"Controls\"]")
 	public AndroidElement controls;
@@ -256,7 +260,7 @@ public class ViewsPage extends BasePage{
 		click(edit);
 		wait.forElementToBeVisible(share);
 		lOGGER.info("Clicks The Share");
-		click(share);
+		click(share,5);
 		driver.navigate().back();
 	}
 	public void switches() {

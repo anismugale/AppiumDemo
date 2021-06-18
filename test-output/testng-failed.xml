@@ -6,8 +6,8 @@
       <class name="ApiDemoTest2">
         <methods>
           <include name="setUp"/>
+          <include name="popUpMenu"/>
           <include name="stopService"/>
-          <include name="scrolling"/>
         </methods>
       </class> <!-- ApiDemoTest2 -->
     </classes>

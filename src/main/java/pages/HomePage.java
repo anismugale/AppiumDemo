@@ -1,5 +1,8 @@
 package pages;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import commons.BasePage;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -7,10 +10,8 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class HomePage extends BasePage {
 
-
-	public HomePage(AndroidDriver<AndroidElement> driver) {
-		super(driver);
-	}
+	protected static final Logger lOGGER = LogManager.getLogger(HomePage.class.getName());
+	
 
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Preference']")
 	public AndroidElement preferences;
@@ -23,6 +24,10 @@ public class HomePage extends BasePage {
 
 	@AndroidFindBy(xpath="//android.widget.TextView[@content-desc=\"Views\"]")
 	public AndroidElement views;
+
+	public HomePage(AndroidDriver<AndroidElement> driver) {
+		super(driver);
+	}
 	
 	public void preferences() {
 		wait.forElementToBeVisible(preferences);

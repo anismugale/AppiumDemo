@@ -7,24 +7,25 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="ApiDemoTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="viewsTest"/>
+          <include name="popUpMenu"/>
+          <include name="stopService"/>
+          <include name="dragging"/>
+          <include name="progressBars"/>
+        </methods>
+      </class> <!-- ApiDemoTest2 -->
       <class name="ApiDemoTest">
         <methods>
           <include name="setUp"/>
           <include name="osTest"/>
           <include name="stopService"/>
           <include name="contentTest"/>
-          <include name="apiDemoTest"/>
+          <include name="apiDemoTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- ApiDemoTest -->
-      <class name="ApiDemoTest2">
-        <methods>
-          <include name="setUp"/>
-          <include name="viewsTest"/>
-          <include name="stopService"/>
-          <include name="rotatingButton"/>
-          <include name="scrolling"/>
-        </methods>
-      </class> <!-- ApiDemoTest2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

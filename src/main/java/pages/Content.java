@@ -79,8 +79,5 @@ public class Content extends BasePage {
 		wait.forElementToBeVisible(chooseContact);
 		lOGGER.info("Clicks The Choose Contact");
 		click(chooseContact);
-		Thread.sleep(5000);
-		BasePage base = new BasePage(driver);
-		base.scrollToText("Amazon");
 	}
 }

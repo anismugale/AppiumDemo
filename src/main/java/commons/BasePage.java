@@ -65,10 +65,6 @@ public class BasePage {
 		driver.findElementByAndroidUIAutomator(
 				"new UiScrollable(new UiSelector()).scrollIntoView(text(\"" +text+ "\"));");
 	}
-	public void scr(String text) {
-		driver.findElementByAndroidUIAutomator(
-				"new UiScrollable(new UiSelector()).setAsHorizontalList().scrollIntoView(text(\"" +text+ "\"));");
-	}
 	public void dragAndDrop(AndroidElement source, AndroidElement target) {
 
 		TouchAction action = new TouchAction((AndroidDriver<AndroidElement>) driver);
@@ -186,7 +182,7 @@ public class BasePage {
 
 	        case DOWN:
 	            startY = (int) (size.height * 0.70);
-	            endY = (int) (size.height * 0.30);
+	            endY = (int) (size.height * 0.0);
 	            startX = (size.width / 2);
 	            new TouchAction(driver)
 	                    .press(PointOption.point(startX, startY))

@@ -19,7 +19,7 @@ public class GenericHelper {
 		this.driver = driver;
 	}
 
-	public WebElement getElement(By locator) {
+	public AndroidElement getElement(By locator) {
 		log.info(locator);
 		if (IsElementPresentQuick(locator)) {
 			return driver.findElement(locator);
@@ -32,7 +32,7 @@ public class GenericHelper {
 		}
 	}
 
-	public WebElement getElementWithNull(By locator) {
+	public AndroidElement getElementWithNull(By locator) {
 		log.info(locator);
 		try {
 			return driver.findElement(locator);
