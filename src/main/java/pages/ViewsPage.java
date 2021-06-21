@@ -176,8 +176,7 @@ public class ViewsPage extends BasePage{
 		click(selectEarth);
 	}
 	public void rotating() {
-		BasePage gestures = new BasePage(driver);
-		gestures.scrollToText("Rotating Button");
+		scrollToText("Rotating Button");
 		wait.forElementToBeVisible(rotatingButton);
 		lOGGER.info("Clicks The Rotating Button");
 		click(rotatingButton);
@@ -185,36 +184,32 @@ public class ViewsPage extends BasePage{
 	public void scrollBars() {
 		wait.forElementToBeVisible(txBar);
 		lOGGER.info("Clicks The TX Bar");
-		BasePage gestures = new BasePage(driver);
-		gestures.progressBar(txBar);
+		progressBar(txBar);
 		wait.forElementToBeVisible(syBar);
 		lOGGER.info("Clicks The SY Bar");
-		gestures.progressBar(syBar);
+		progressBar(syBar);
 	}
 	public void rotatingButtons() {
 		wait.forElementToBeVisible(xBar);
 		lOGGER.info("Clicks The X Bar");
-		BasePage gestures = new BasePage(driver);
-		gestures.progressBar(xBar);
+		progressBar(xBar);
 		wait.forElementToBeVisible(zBar);
 		lOGGER.info("Clicks The Z Bar");
-		gestures.progressBar(zBar);
+		progressBar(zBar);
 		driver.navigate().back();
 	}
 	public void ratingBars() {
 		wait.forElementToBeVisible(ratingBar);
 		lOGGER.info("Clicks The Rating Bar");
 		click(ratingBar);
-		BasePage gestures = new BasePage(driver);
-		gestures.progressBar(ratings);
+		progressBar(ratings);
 		driver.navigate().back();
 	}
 	public void seekBar() {
 		wait.forElementToBeVisible(seekBarButton);
 		lOGGER.info("Clicks The Seek Bar Buttonr");
 		click(seekBarButton);
-		BasePage gestures = new BasePage(driver);
-		gestures.progressBar(seekBar);
+		progressBar(seekBar);
 	}
 	public void dateWidgets() {
 		wait.forElementToBeVisible(dateWidgets);
@@ -230,8 +225,7 @@ public class ViewsPage extends BasePage{
 		wait.forElementToBeVisible(clock_9);
 		lOGGER.info("Clicks The 9 In The Clock");
 		click(clock_9);
-		BasePage gestures = new BasePage(driver);
-		gestures.longPress(clock_15, clock_45);
+		longPress(clock_15, clock_45);
 		driver.navigate().back();
 		driver.navigate().back();
 	}
@@ -239,12 +233,10 @@ public class ViewsPage extends BasePage{
 		wait.forElementToBeVisible(dragDrop);
 		lOGGER.info("Clicks The Drag Drop");
 		click(dragDrop);
-		BasePage gestures = new BasePage(driver);
-		gestures.dragAndDrop(dot1, dot2);
+		dragAndDrop(dot1, dot2);
 	}
 	public void popUp() {
-		BasePage gestures = new BasePage(driver);
-		gestures.scrollToText("Popup Menu");
+		scrollToText("Popup Menu");
 		wait.forElementToBeVisible(popUp);
 		lOGGER.info("Clicks The Pop Up");
 		click(popUp);
@@ -264,8 +256,7 @@ public class ViewsPage extends BasePage{
 		driver.navigate().back();
 	}
 	public void switches() {
-		BasePage gestures = new BasePage(driver);
-		gestures.scrollToText("Switches");
+		scrollToText("Switches");
 		wait.forElementToBeVisible(switches);
 		lOGGER.info("Clicks The Switches");
 		click(switches);

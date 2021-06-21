@@ -624,3 +624,31 @@
 [INFO ] 2021-06-18 20:02:21.026 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
 [INFO ] 2021-06-18 20:02:21.803 [main] ViewsPage - Clicks The Seek Bar Buttonr
 [INFO ] 2021-06-18 20:02:21.803 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-21 11:28:28.135 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-21 11:28:28.150 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-21 11:28:28.355 [main] HomePage - Clicks The Views
+[INFO ] 2021-06-21 11:28:28.355 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Views"]})
+[INFO ] 2021-06-21 11:28:35.439 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-21 11:28:35.439 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-21 11:28:35.544 [main] ViewsPage - Clicks The Rotating Button
+[INFO ] 2021-06-21 11:28:35.545 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rotating Button"]})
+[INFO ] 2021-06-21 11:28:35.787 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-21 11:28:35.787 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/translationX})
+[INFO ] 2021-06-21 11:28:36.992 [main] ViewsPage - Clicks The TX Bar
+[INFO ] 2021-06-21 11:28:37.721 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-21 11:28:37.722 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/scaleY})
+[INFO ] 2021-06-21 11:28:37.964 [main] ViewsPage - Clicks The SY Bar
+[INFO ] 2021-06-21 11:28:38.639 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-21 11:28:38.639 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationX})
+[INFO ] 2021-06-21 11:28:38.876 [main] ViewsPage - Clicks The X Bar
+[INFO ] 2021-06-21 11:28:40.042 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-21 11:28:40.042 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.id: io.appium.android.apis:id/rotationZ})
+[INFO ] 2021-06-21 11:28:40.298 [main] ViewsPage - Clicks The Z Bar
+[INFO ] 2021-06-21 11:28:42.527 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-21 11:28:42.528 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-21 11:28:42.662 [main] ViewsPage - Clicks The Rating Bar
+[INFO ] 2021-06-21 11:28:42.662 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Rating Bar"]})
+[INFO ] 2021-06-21 11:28:46.938 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-21 11:28:46.939 [main] ExplicitWait - Waiting for element to be visible: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
+[INFO ] 2021-06-21 11:28:47.479 [main] ViewsPage - Clicks The Seek Bar Buttonr
+[INFO ] 2021-06-21 11:28:47.479 [main] ExplicitWait - Waiting for element to be clickable: Located by By.chained({By.xpath: //android.widget.TextView[@content-desc="Seek Bar"]})
